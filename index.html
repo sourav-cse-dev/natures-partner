@@ -12,30 +12,48 @@
       <!-- navbar section -->
       <nav class="container mx-auto flex justify-between py-2 lg:py-4">
         <div>
-          <img src="./images/logo-header.png" alt="Nature's Partner Logo" class="ml-3" />
+          <img src="./images/logo-header.png" alt="Nature's Partner Logo" class="ml-3 hidden lg:block cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out" />
+          <img src="./images/logo-mobile.png" alt="Nature's Partner Logo for Mobile" class="ml-3 block lg:hidden cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out" />
         </div>
-
         <div class="hidden lg:block">
           <div class="flex gap-8 mt-3 ml-32">
-            <li class="list-none"><a href="#" class="text-xl font-normal leading-[25px] text-gray-900">Product</a></li>
-            <li class="list-none"><a href="#" class="text-xl font-normal leading-[25px] text-gray-900">Services</a></li>
-            <li class="list-none"><a href="#" class="text-xl font-normal leading-[25px] text-gray-900">Contact us</a></li>
+            <li class="list-none cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out"><a href="#" class="text-xl font-normal leading-[25px] text-gray-900">Product</a></li>
+            <li class="list-none cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out"><a href="#" class="text-xl font-normal leading-[25px] text-gray-900">Services</a></li>
+            <li class="list-none cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out"><a href="#" class="text-xl font-normal leading-[25px] text-gray-900">Contact us</a></li>
           </div>
         </div>
-
         <div class="hidden lg:block">
           <div class="flex gap-6 items-center">
-            <i class="fa-solid fa-magnifying-glass text-xl text-gray-600"></i>
-            <i class="fa-solid fa-cart-shopping text-xl text-gray-600"></i>
-            <button class="text-xl font-normal leading-[25px] border border-green-600 rounded-md px-7 py-2 text-gray-900">Login</button>
-            <button class="text-xl font-normal leading-[25px] border border-green-600 bg-green-600 rounded-md text-white px-7 py-2">Register</button>
+            <i class="fa-solid fa-magnifying-glass text-xl text-gray-600 cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out"></i>
+            <i class="fa-solid fa-cart-shopping text-xl text-gray-600 cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out"></i>
+            <button class="text-xl font-normal leading-[25px] border border-green-600 rounded-md px-7 py-2 text-gray-900 cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out">Login</button>
+            <button class="text-xl font-normal leading-[25px] border border-green-600 bg-green-600 rounded-md text-white px-7 py-2 cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out">Register</button>
           </div>
         </div>
         <div class="block lg:hidden">
-          <i class="fa-solid fa-bars text-3xl text-green-700 mr-4 mt-3 cursor-pointer"></i>
+          <i class="fa-solid fa-bars text-3xl text-green-700 mr-4 mt-2 cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out"></i>
         </div>
       </nav>
       <div class="border-b-1 border-green-600 block lg:hidden"></div>
+
+      <!-- banner section -->
+      <div class="container mx-auto flex flex-col gap-4 lg:gap-8 mt-12 lg:mt-22 justify-between items-center">
+        <h1 class="text-3xl lg:text-5xl font-semibold leading-[40px] lg:leading-[71px] text-center text-black">
+          Freshness
+          <span class="text-green-600"
+            >You Can <br />
+            Count</span
+          >
+          On, Prices You’ll Love!
+        </h1>
+        <p class="text-base lg:text-xl font-light lg:font-normal leading-[20px] lg:leading-[25px] text-center lg:w-3/5 opacity-80">
+          Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
+        </p>
+        <div class="animate-bounce hover:animate-none">
+          <img src="./images/hero-vegetables.png" alt="Vegetable Image" />
+        </div>
+      </div>
+      <main></main>
     </header>
   </body>
 </html>
