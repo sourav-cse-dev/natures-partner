@@ -49,7 +49,8 @@ Possible future enhancements for this project include:
 ## How to Run Locally
 
 1.  Clone the repository: `git clone https://github.com/sourav-cse-dev/natures-partner.git`
-2.  Open the `index.html` file in your web browser.
+2.  Run `npm i` for installing dependencies.
+3.  Open the `index.html` file in your web browser.
 
 ## Contributions
 
