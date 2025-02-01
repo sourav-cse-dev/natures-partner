@@ -124,14 +124,14 @@
         <div class="container mx-auto px-4 mb-12 lg:mb-35">
           <div class="ml-2 lg:ml-12 text-2xl lg:text-4xl text-green-600 font-semibold leading-[30px] lg:leading-[45px] mt-12 lg:mt-35">Popular Products</div>
           <div class="flex flex-col lg:flex-row mt-8 lg:mt-12 gap-6 justify-center">
-            <div class="bg-gradient-to-r from-green-600 to-green-400 rounded-lg w-112 lg:w-126 h-101">
+            <div class="bg-gradient-to-r from-green-600 to-green-400 rounded-lg md:w-185 lg:w-126 h-101">
               <div class="flex flex-col gap-4 p-8 mt-4 lg:mt-8 relative">
                 <h3 class="text-xl lg:text-2xl font-semibold leading-[25px] lg:leading-[30px] text-white">30% Off</h3>
                 <p class="text-base lg:text-lg font-light leading-[20px] lg:leading-[25px] text-gray-900">Discover a world of treats, toys, and essentials handpicked for..</p>
                 <div>
                   <button class="text-xl font-normal leading-[25px] bg-white rounded-md px-7 py-2 text-gray-900 hover-effect">Buy Now</button>
                 </div>
-                <div class="absolute top-39 lg:top-30 left-50 lg:left-55">
+                <div class="absolute top-33 md:top-34 lg:top-30 left-70 md:left-105 lg:left-55">
                   <img src="./images/vegetable-offer.png" alt="Banana and Spinach" class="animate-pulse" />
                 </div>
               </div>
@@ -262,7 +262,7 @@
       </section>
 
       <!-- offer section -->
-      <section class="mt-12 lg:mt-32 flex justify-center items-center">
+      <section class="mt-12 lg:mt-32 mb-100 lg:mb-90 flex justify-center items-center">
         <div class="container mx-auto px-4 lg:px-16">
           <div class="text-2xl lg:text-4xl text-green-600 font-semibold leading-[30px] lg:leading-[45px]">Arrival & Offers</div>
           <div class="mt-8 lg:mt-12 flex flex-col lg:flex-row gap-5">
@@ -299,23 +299,25 @@
       </section>
     </main>
 
-    <!-- news section -->
-    <section class="flex items-center w-152 lg:w-352 h-116 lg:h-114 ml-16 lg:ml-60 mt-12 lg:mt-32">
-      <div class="container mx-auto py-6 bg-[#EFEBE3] rounded-2xl flex flex-col lg:flex-row items-center lg:justify-between">
-        <div><img src="./images/vegetable-busket.png" alt="Vegetable Busket" /></div>
-        <div class="flex flex-col gap-6 justify-center mr-20">
-          <h3 class="text-2xl lg:text-3xl font-semibold leading-[25px] lg:leading-[30px] text-gray-800">Get Grocery News!</h3>
-          <p class="text-base lg:text-lg font-light leading-[20px] lg:leading-[25px] text-gray-800">Exclusive training tips, ticks, product deals and more.</p>
-          <input type="text" placeholder="Enter email..." class="border border-gray-300 rounded-md px-8 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" />
-          <div>
-            <button class="text-xl font-normal leading-[25px] bg-green-600 rounded-md px-7 py-2 text-white hover-effect">Buy Now</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- footer section -->
-    <footer class="bg-[#179801] h-180 lg:h-164 flex justify-between items-center">
+    <footer class="bg-[#179801] relative h-260 lg:h-164 flex justify-between items-center">
+      <!-- news section -->
+      <div class="absolute top-45 left-1/3 -translate-x-1/2 -translate-y-1/2 w-full px-4 ml-10 md:ml-33 lg:ml-80">
+        <section class="flex items-center lg:w-352 h-116 lg:h-114 ml-16 lg:ml-60 mt-12 lg:mt-32 mb-120">
+          <div class="container mx-auto py-6 bg-[#EFEBE3] rounded-2xl flex flex-col lg:flex-row items-center lg:justify-between">
+            <div><img src="./images/vegetable-busket.png" alt="Vegetable Busket" /></div>
+            <div class="flex flex-col gap-6 justify-center mr-20">
+              <h3 class="text-2xl lg:text-3xl font-semibold leading-[25px] lg:leading-[30px] text-gray-800">Get Grocery News!</h3>
+              <p class="text-base lg:text-lg font-light leading-[20px] lg:leading-[25px] text-gray-800">Exclusive training tips, ticks, product deals and more.</p>
+              <input type="text" placeholder="Enter email..." class="border border-gray-300 bg-white rounded-md px-8 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" />
+              <div>
+                <button class="text-xl font-normal leading-[25px] bg-green-600 rounded-md px-7 py-2 text-white hover-effect">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
       <div class="container mx-auto flex flex-col lg:flex-row justify-start lg:justify-between px-4 lg-px-0">
         <div class="flex flex-col ml-0 lg:ml-12">
           <div>
