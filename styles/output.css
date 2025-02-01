@@ -638,6 +638,9 @@
   .w-112 {
     width: calc(var(--spacing) * 112);
   }
+  .w-full {
+    width: 100%;
+  }
   .animate-bounce {
     animation: var(--animate-bounce);
   }
@@ -646,6 +649,9 @@
   }
   .animate-pulse {
     animation: var(--animate-pulse);
+  }
+  .animate-spin {
+    animation: var(--animate-spin);
   }
   .link {
     cursor: pointer;
@@ -974,6 +980,11 @@
   .lg\:hidden {
     @media (width >= 64rem) {
       display: none;
+    }
+  }
+  .lg\:w-2\/5 {
+    @media (width >= 64rem) {
+      width: calc(2/5 * 100%);
     }
   }
   .lg\:w-3\/5 {
