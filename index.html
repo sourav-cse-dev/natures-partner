@@ -12,26 +12,26 @@
       <!-- navbar section -->
       <nav class="container mx-auto flex justify-between py-2 lg:py-4">
         <div>
-          <img src="./images/logo-header.png" alt="Nature's Partner Logo" class="ml-3 hidden lg:block cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out" />
-          <img src="./images/logo-mobile.png" alt="Nature's Partner Logo for Mobile" class="ml-3 block lg:hidden cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out" />
+          <img src="./images/logo-header.png" alt="Nature's Partner Logo" class="ml-3 hidden lg:block hover-effect" />
+          <img src="./images/logo-mobile.png" alt="Nature's Partner Logo for Mobile" class="ml-3 block lg:hidden hover-effect" />
         </div>
         <div class="hidden lg:block">
-          <div class="flex gap-8 mt-3 ml-32">
-            <li class="list-none cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out"><a href="#" class="text-xl font-normal leading-[25px] text-gray-900">Product</a></li>
-            <li class="list-none cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out"><a href="#" class="text-xl font-normal leading-[25px] text-gray-900">Services</a></li>
-            <li class="list-none cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out"><a href="#" class="text-xl font-normal leading-[25px] text-gray-900">Contact us</a></li>
+          <div class="flex gap-8 mt-3 ml-54">
+            <li class="list-none hover-effect"><a href="#" class="text-xl font-normal leading-[25px] text-gray-900">Product</a></li>
+            <li class="list-none hover-effect"><a href="#" class="text-xl font-normal leading-[25px] text-gray-900">Services</a></li>
+            <li class="list-none hover-effect"><a href="#" class="text-xl font-normal leading-[25px] text-gray-900">Contact us</a></li>
           </div>
         </div>
         <div class="hidden lg:block">
           <div class="flex gap-6 items-center">
-            <i class="fa-solid fa-magnifying-glass text-xl text-gray-600 cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out"></i>
-            <i class="fa-solid fa-cart-shopping text-xl text-gray-600 cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out"></i>
-            <button class="text-xl font-normal leading-[25px] border border-green-600 rounded-md px-7 py-2 text-gray-900 cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out">Login</button>
-            <button class="text-xl font-normal leading-[25px] border border-green-600 bg-green-600 rounded-md text-white px-7 py-2 cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out">Register</button>
+            <i class="fa-solid fa-magnifying-glass text-xl text-gray-600 hover-effect"></i>
+            <i class="fa-solid fa-cart-shopping text-xl text-gray-600 hover-effect"></i>
+            <button class="text-xl font-normal leading-[25px] border border-green-600 rounded-md px-7 py-2 text-gray-900 hover-effect">Login</button>
+            <button class="text-xl font-normal leading-[25px] border border-green-600 bg-green-600 rounded-md text-white px-7 py-2 hover-effect">Register</button>
           </div>
         </div>
         <div class="block lg:hidden">
-          <i class="fa-solid fa-bars text-3xl text-green-700 mr-4 mt-2 cursor-pointer transform hover:scale-110 transition-transform duration-300 ease-out"></i>
+          <i class="fa-solid fa-bars text-3xl text-green-700 mr-4 mt-2 hover-effect"></i>
         </div>
       </nav>
       <div class="border-b-1 border-green-600 block lg:hidden"></div>
@@ -49,11 +49,35 @@
         <p class="text-base lg:text-xl font-light lg:font-normal leading-[20px] lg:leading-[25px] text-center lg:w-3/5 opacity-80">
           Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
         </p>
-        <div class="animate-bounce hover:animate-none">
+        <div class="animate-none hover:animate-none">
           <img src="./images/hero-vegetables.png" alt="Vegetable Image" />
         </div>
       </div>
-      <main></main>
     </header>
+    <main>
+      <!-- service section -->
+      <section class="container mx-auto mt-12 lg:mt-32 px-4">
+        <div class="ml-4 lg:ml-24 text-2xl lg:text-4xl text-green-600 font-semibold leading-[30px] lg:leading-[45px]">Services</div>
+        <div class="flex flex-col justify-center items-center mt-8 lg:mt-12">
+          <div class="grid grid-cols-1 lg:grid-cols-3 justify-center items-center gap-6">
+            <div class="h-92 w-106 bg-[#EFEBE3] rounded-xl flex flex-col justify-center items-center gap-6">
+              <img src="./images/service.png" alt="" class="p-5 rounded-full bg-white" />
+              <h2 class="text-xl lg:text-2xl font-semibold leading-[25px] lg:leading-[30px] text-gray-800">24/7 Services</h2>
+              <p class="text-base lg:text-lg font-light px-8 text-center leading-[20px] lg:leading-[25px] text-gray-600">Whenever you need us, we are available around the clock every day.</p>
+            </div>
+            <div class="h-92 w-106 bg-[#EFEBE3] rounded-xl flex flex-col justify-center items-center gap-6">
+              <img src="./images/delivery.png" alt="" class="p-5 rounded-full bg-white" />
+              <h2 class="text-xl lg:text-2xl font-semibold leading-[25px] lg:leading-[30px] text-gray-800">Fast Delivery</h2>
+              <p class="text-base lg:text-lg font-light px-8 text-center leading-[20px] lg:leading-[25px] text-gray-600">Experience lightning-fast delivery, get your order delivered in record time.</p>
+            </div>
+            <div class="h-92 w-106 bg-[#EFEBE3] rounded-xl flex flex-col justify-center items-center gap-6">
+              <img src="./images/healthy.png" alt="" class="p-5 rounded-full bg-white" />
+              <h2 class="text-xl lg:text-2xl font-semibold leading-[25px] lg:leading-[30px] text-gray-800">Healthy Products</h2>
+              <p class="text-base lg:text-lg font-light px-8 text-center leading-[20px] lg:leading-[25px] text-gray-600">Products designed to promote and maintain good health.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
