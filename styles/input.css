@@ -3,6 +3,7 @@
 @plugin "daisyui";
 @theme {
   --font-display: "Sora", sans-serif;
+  --animate-bounce: bounce 3s infinite;
 }
 
 .hover-effect {
